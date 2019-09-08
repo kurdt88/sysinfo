@@ -89,6 +89,8 @@ echo "---------- BATTERY -----------"
 echo "Battery info     : $BATTERY_INFO"
 echo "---------- PARTITIONS --------"
 echo "$PARTITION_INFO"
+echo "lsblk:"
+lsbls;
 echo "---------- USB ---------------"
 echo "$USB_DEVICES"
 echo "---------- MISC -------"
